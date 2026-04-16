@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-thin-webfont.eot');
+    src: url('swiza-thin-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-thin-webfont.woff2') format('woff2'),
+        url('swiza-thin-webfont.woff') format('woff'),
+        url('swiza-thin-webfont.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-thinitalic-webfont.eot');
+    src: url('swiza-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-thinitalic-webfont.woff2') format('woff2'),
+        url('swiza-thinitalic-webfont.woff') format('woff'),
+        url('swiza-thinitalic-webfont.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-extralight-webfont.eot');
+    src: url('swiza-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-extralight-webfont.woff2') format('woff2'),
+        url('swiza-extralight-webfont.woff') format('woff'),
+        url('swiza-extralight-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-extralightitalic-webfont.eot');
+    src: url('swiza-extralightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-extralightitalic-webfont.woff2') format('woff2'),
+        url('swiza-extralightitalic-webfont.woff') format('woff'),
+        url('swiza-extralightitalic-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-light-webfont.eot');
+    src: url('swiza-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-light-webfont.woff2') format('woff2'),
+        url('swiza-light-webfont.woff') format('woff'),
+        url('swiza-light-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-lightitalic-webfont.eot');
+    src: url('swiza-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-lightitalic-webfont.woff2') format('woff2'),
+        url('swiza-lightitalic-webfont.woff') format('woff'),
+        url('swiza-lightitalic-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-regular-webfont.eot');
+    src: url('swiza-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-regular-webfont.woff2') format('woff2'),
+        url('swiza-regular-webfont.woff') format('woff'),
+        url('swiza-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-regularitalic-webfont.eot');
+    src: url('swiza-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-regularitalic-webfont.woff2') format('woff2'),
+        url('swiza-regularitalic-webfont.woff') format('woff'),
+        url('swiza-regularitalic-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-medium-webfont.eot');
+    src: url('swiza-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-medium-webfont.woff2') format('woff2'),
+        url('swiza-medium-webfont.woff') format('woff'),
+        url('swiza-medium-webfont.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-mediumitalic-webfont.eot');
+    src: url('swiza-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-mediumitalic-webfont.woff2') format('woff2'),
+        url('swiza-mediumitalic-webfont.woff') format('woff'),
+        url('swiza-mediumitalic-webfont.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-semibold-webfont.eot');
+    src: url('swiza-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-semibold-webfont.woff2') format('woff2'),
+        url('swiza-semibold-webfont.woff') format('woff'),
+        url('swiza-semibold-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-semibolditalic-webfont.eot');
+    src: url('swiza-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-semibolditalic-webfont.woff2') format('woff2'),
+        url('swiza-semibolditalic-webfont.woff') format('woff'),
+        url('swiza-semibolditalic-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-bold-webfont.eot');
+    src: url('swiza-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-bold-webfont.woff2') format('woff2'),
+        url('swiza-bold-webfont.woff') format('woff'),
+        url('swiza-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swiza';
+    src: url('swiza-bolditalic-webfont.eot');
+    src: url('swiza-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('swiza-bolditalic-webfont.woff2') format('woff2'),
+        url('swiza-bolditalic-webfont.woff') format('woff'),
+        url('swiza-bolditalic-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}

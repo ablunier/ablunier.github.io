@@ -1,0 +1,19 @@
+en:
+  primary_navigation: Primary navigation
+  lang_navigation: Language selector
+  toggle_navigation: Toggle navigation
+  toggle_theme: Toggle theme
+  greeting: Hello, I'm Adrian Pardellas Blunier, Software Developer
+  send_me_an_email: Send me an email
+  visit_profile: "Visit my {type} profile"
+  made_with: Built with
+
+gl:
+  primary_navigation: Menú de navegación principal
+  lang_navigation: Selector de idioma
+  toggle_navigation: Abrir/pechar menú de navegación
+  toggle_theme: Cambiar tema
+  greeting: Ola, son Adrian Pardellas Blunier, Desenvolvedor de Software
+  send_me_an_email: Envíame un correo electrónico
+  visit_profile: "Visita o meu perfil de {type}"
+  made_with: Feito con

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.5"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Adrián",
+      "surnames": "Pardellas Blunier",
+      "title": "Software Developer",
+      "avatar": {
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/11/20/90c64a67-6244-4899-b929-31e280919d45_eu.jpg",
+        "alt": "Eu.jpg"
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJk8GyYRRiLw0Rn9RLF60dRHs)",
+        "country": "España",
+        "region": "Galicia",
+        "municipality": "Vigo"
+      }
+    }
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "URL": "https://www.linkedin.com/in/adrian-p-blunier/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/ablunier",
+          "type": "github"
+        }
+      ],
+      "contactMails": [
+        "adrian.blunier@gmail.com"
+      ]
+    }
+  }
+}

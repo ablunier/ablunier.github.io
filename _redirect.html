@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/global.css">
+  <script>
+    const glLangs = ["gl", "es"];
+
+    const preferred = navigator.languages
+      .map((l) => l.split("-")[0].toLowerCase())
+      .find((l) => glLangs.includes(l));
+    const lang = preferred ? "gl" : "en";
+
+    window.location.replace("/" + lang + "/");
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/en/">
+  </noscript>
+</head>
+
+<body>
+  <p>Redirecting… <a href="/en/">Click here if not redirected</a></p>
+</body>
+
+</html>

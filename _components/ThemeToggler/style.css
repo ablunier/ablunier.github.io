@@ -1,0 +1,36 @@
+.theme-toggler {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--text-secondary);
+}
+
+.theme-toggler__icon {
+  transition: transform 0.5s ease;
+}
+
+.theme-toggler[aria-pressed="true"] .theme-toggler__icon {
+  transform: rotate(-40deg);
+}
+
+.theme-toggler__core {
+  transition: transform 0.5s ease;
+  transform-origin: center;
+}
+
+.theme-toggler[aria-pressed="true"] .theme-toggler__core {
+  transform: scale(1.2);
+}
+
+.theme-toggler__sun-rays {
+  transform-origin: center;
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+.theme-toggler[aria-pressed="true"] .theme-toggler__sun-rays {
+  transform: rotate(45deg) scale(0);
+  opacity: 0;
+}
