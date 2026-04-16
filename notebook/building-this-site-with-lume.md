@@ -14,10 +14,10 @@ I had been wanting to build my personal website for a while, and the premise I s
 
 What a static website is and the reasons behind this architectural decision are very well explained [on this page](https://lume.land/docs/overview/why-static-sites/) in Lume's documentation.
 
-When choosing among the [hundreds of generators](https://jamstack.org/generators/) available today, my first filter was being able to work in a TypeScript/JavaScript environment. TypeScript has been my main programming language for a while, so that part was clear.
+When choosing among the [hundreds of generators](https://jamstack.org/generators/) available today, my first filter was being able to work in a TypeScript/JavaScript environment. TypeScript has been my main programming language for a while, so that condition was clear.
 After researching the available options, the finalists were Lume, [Astro](https://astro.build/), and [Next.js](https://nextjs.org/), and I ended up choosing Lume for the following reasons:
 * **Simplicity**. Without prior experience with either Astro or Lume, both seemed to have a gentle learning curve, with great flexibility and ease of configuration. I already knew Next.js, so I knew it was a more full-featured tool than I needed here, and it would lock me into using [React](https://react.dev/) — a commitment I didn't want to make at this early stage.
-* **It was made in Galicia by [Óscar Otero](https://oscarotero.com/)**. Óscar is a designer and developer I consider a reference in the tech ecosystem, and I was lucky enough to work with him a few years ago at Navalla Suíza. Working with code he wrote has always been a pleasure.
+* **It was made in Galicia by [Óscar Otero](https://oscarotero.com/)**. Óscar is a designer and developer I consider a reference in the tech ecosystem, and I was lucky enough to work with him a few years ago at A Navalla Suíza. Working with code he wrote has always been a pleasure.
 * **An opportunity to use Deno**. Setting aside performance comparisons — which for such a small project didn't feel like the most important factor — I wanted to work with a JavaScript runtime different from [Node.js](https://nodejs.org/), to take the opportunity to compare the experience beyond basic tests. Given what's been gaining the most traction today, it had to be either [Deno](https://deno.com/) or [Bun](https://bun.com/). The fact that Lume is already built for Deno gave me a good excuse.
 
 ## The decisions that followed

@@ -57,7 +57,7 @@
 .site-header__actions {
   display: flex;
   align-items: center;
-  gap: var(--size-2);
+  gap: var(--size-1);
   z-index: 100;
 }
 
