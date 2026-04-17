@@ -23,4 +23,5 @@
 .post-summary__description {
   max-width: 48rem;
   color: var(--color-secondary);
+  text-wrap: balance;
 }

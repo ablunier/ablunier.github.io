@@ -6,15 +6,17 @@ export type Post = {
 };
 
 export default ({ post, lang }: { post: Post, lang: string }, helpers: Lume.Helpers) => (
-  <li class="post-summary" key={post.url}>
-    <a href={post.url} class="post-summary__link">
-      <time class="post-summary__date" dateTime={helpers.date(post.date)}>
-        {helpers.date(post.date, "HUMAN_DATE", lang)}
-      </time>
-      <h2>{post.title}</h2>
-      {post.description && (
-        <p class="post-summary__description">{post.description}</p>
-      )}
-    </a>
+  <li key={post.url}>
+    <article class="post-summary">
+      <a href={post.url} class="post-summary__link">
+        <time class="post-summary__date" dateTime={helpers.date(post.date)}>
+          {helpers.date(post.date, "HUMAN_DATE", lang)}
+        </time>
+        <h2>{post.title}</h2>
+        {post.description && (
+          <p class="post-summary__description">{post.description}</p>
+        )}
+      </a>
+    </article>
   </li>
 )

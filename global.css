@@ -188,8 +188,9 @@ figure figcaption {
 }
 
 code {
-  font-family: monospace;
   background: var(--bg-code-color);
+  font-family: monospace;
+  font-size: .8em;
   color: var(--color-code);
   hyphens: none;
   padding: 0.1rem 0.2rem;
@@ -197,9 +198,7 @@ code {
 }
 
 pre code {
-  font-family: monospace;
-  background: var(--bg-code-color);
-  color: var(--color-code);
+  font-size: 1em;
   display: block;
   padding: 1rem 0.5rem;
   margin: 1rem 0;
@@ -316,6 +315,7 @@ table th {
 
 .notebook-header__subtitle {
   color: var(--color-secondary);
+  font-size: var(--text-lg);
 }
 
 .post-list {
