@@ -1,8 +1,7 @@
 const initialThemeScript = `
   const match = document.cookie.match(/(?:^|; )theme=(dark|light)/);
-  if (match) {
-    document.documentElement.setAttribute('data-theme', match[1]);
-  }
+  const theme = match?.[1] ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', theme);
 `;
 
 export default (
@@ -19,7 +18,7 @@ export default (
 ) => (
   <>
     {{ __html: "<!DOCTYPE html>" }}
-    <html lang={lang} data-theme="light">
+    <html lang={lang}>
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
