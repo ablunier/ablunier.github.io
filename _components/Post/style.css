@@ -1,26 +1,26 @@
 .post-summary {
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle-color);
 }
 
 .post-summary__link {
   display: block;
-  padding: var(--size-1) 0;
+  padding: var(--spacing-1) 0;
   text-decoration: none;
-  color: var(--text-primary);
+  color: var(--color-primary);
 }
 
 .post-summary__date {
   font-size: var(--text-sm);
-  color: var(--text-secondary);
+  color: var(--color-secondary);
   display: block;
   margin-bottom: 0.4rem;
 }
 
 .post-summary__link:hover .post-summary__title {
-  color: var(--accent);
+  color: var(--color-accent);
 }
 
 .post-summary__description {
   max-width: 48rem;
-  color: var(--text-secondary);
+  color: var(--color-secondary);
 }

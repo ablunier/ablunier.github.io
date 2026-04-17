@@ -5,7 +5,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  color: var(--text-secondary);
+  color: var(--color-secondary);
 }
 
 .theme-toggler__icon {

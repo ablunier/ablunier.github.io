@@ -1,5 +1,5 @@
 .site-header {
-  --horizontal-padding: clamp(var(--size-1), 5vw, var(--size-4));
+  --horizontal-padding: clamp(var(--spacing-1), 5vw, var(--spacing-4));
 }
 
 .site-header__container {
@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: var(--size-2);
+  gap: var(--spacing-2);
   padding: 1rem var(--horizontal-padding);
 }
 
@@ -22,7 +22,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  color: var(--text-primary);
+  color: var(--color-primary);
 }
 
 .site-header__menu-line {
@@ -42,11 +42,11 @@
   position: fixed;
   inset: 0;
   z-index: 90;
-  background: var(--bg);
+  background: var(--bg-color);
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.45s ease, visibility 0.45s;
-  padding: var(--size-4) var(--horizontal-padding);
+  padding: var(--spacing-4) var(--horizontal-padding);
 }
 
 .site-header__overlay.open {
@@ -57,7 +57,7 @@
 .site-header__actions {
   display: flex;
   align-items: center;
-  gap: var(--size-1);
+  gap: var(--spacing-1);
   z-index: 100;
 }
 
@@ -66,16 +66,16 @@
   padding-left: 0;
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--size-2);
+  margin-bottom: var(--spacing-2);
 }
 
 .site-header__main-nav-list > li {
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--border-color);
   margin-bottom: 0;
 }
 
 .site-header__main-nav-list a {
-  font-size: 1.25rem;
+  font-size: var(--text-lg);
   display: block;
   padding: 1rem 0;
 }
@@ -90,19 +90,19 @@
 .site-header__lang-list > li:not(:last-child)::after {
   content: "/" / "";
   margin: 0 .8rem;
-  color: var(--text-secondary);
+  color: var(--color-secondary);
 }
 
 .site-header__main-nav-list a,
 .site-header__lang-list a {
   text-decoration: none;
-  color: var(--text-primary);
+  color: var(--color-primary);
   transition: color 0.2s;
 }
 
 .site-header__main-nav-list a:hover,
 .site-header__lang-list a:hover {
-  color: var(--accent);
+  color: var(--color-accent);
 }
 
 .site-header__lang-list > li {
@@ -121,7 +121,7 @@
     inset: unset;
     background: transparent;
     display: flex;
-    gap: var(--size-2);
+    gap: var(--spacing-2);
     padding: 0;
   }
 
@@ -136,7 +136,7 @@
 
   .site-header__main-nav-list {
     flex-direction: row;
-    gap: var(--size-2);
+    gap: var(--spacing-2);
     margin-bottom: 0;
   }
 

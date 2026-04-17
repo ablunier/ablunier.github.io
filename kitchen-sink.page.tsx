@@ -5,7 +5,16 @@ export const layout = "layouts/main.tsx";
 
 export default () => {
   const colorTokens = [
-    'bg', 'bg-subtle', 'bg-code', 'text-primary', 'text-secondary', 'text-code', 'accent', 'accent-hover', 'border', 'border-subtle'
+    'bg-color',
+    'bg-subtle-color',
+    'bg-code-color',
+    'color-primary',
+    'color-secondary',
+    'color-code',
+    'color-accent',
+    'color-accent-hover',
+    'border-color',
+    'border-subtle-color',
   ];
 
   return (
@@ -56,8 +65,8 @@ export default () => {
           <h2>Colors</h2>
           <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
             {colorTokens.map((token) => (
-              <div key={token} style={`background-color: var(--${token}); width: 100px; height: 100px; border: 1px solid var(--border);`}>
-                <span style="background-color: var(--bg); color: var(--text-primary);">--{token}</span>
+              <div key={token} style={`background-color: var(--${token}); width: 6.5rem; height: 6.5rem; border: 1px solid var(--border-color);`}>
+                <small style="background-color: var(--bg-color); color: var(--color-primary);">--{token}</small>
               </div>
             ))}
           </div>
