@@ -4,11 +4,11 @@ export const id = "notebook";
 export const lang = ["en", "gl"];
 export const layout = "layouts/main.tsx";
 export const title = "Notebook";
-export const description = "Thoughts, notes, and explorations.";
+export const description = "To share some thoughts, notes and experiences.";
 
 export const gl = {
   title: "Caderno",
-  description: "Pensamentos, notas e exploracións."
+  description: "Para compartir algúns pensamentos, notas e experiencias."
 };
 
 export default ({ title, description, comp, search, lang }: Lume.Data) => {

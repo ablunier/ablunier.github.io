@@ -1,8 +1,12 @@
 en:
   primary_navigation: Primary navigation
-  lang_navigation: Language selector
+  lang_navigation: Language selector (languages in IETF tags)
   toggle_navigation: Toggle navigation
   toggle_theme: Toggle theme
+  language_name:
+    gl: galician
+    en: english
+    de: German
   greeting: Hello, I'm Adrian Pardellas Blunier, Software Developer
   send_me_an_email: Send me an email
   visit_profile: "Visit my {type} profile"
@@ -10,10 +14,27 @@ en:
 
 gl:
   primary_navigation: Menú de navegación principal
-  lang_navigation: Selector de idioma
+  lang_navigation: Selector de idioma (idiomas en códigos IETF)
   toggle_navigation: Abrir/pechar menú de navegación
   toggle_theme: Cambiar tema
+  language_name:
+    gl: galego
+    en: inglés
+    de: alemán
   greeting: Ola, son Adrian Pardellas Blunier, Desenvolvedor de Software
   send_me_an_email: Envíame un correo electrónico
   visit_profile: "Visita o meu perfil de {type}"
   made_with: Feito con
+
+de:
+  primary_navigation: Hauptnavigation
+  lang_navigation: Sprachauswahl (Sprachen in IETF-Tags)
+  toggle_navigation: Navigation wechseln
+  toggle_theme: Thema wechseln
+  language_name:
+    gl: Galizisch
+    en: Englisch
+    de: Deutsch
+  send_me_an_email: Schick mir eine E-Mail
+  visit_profile: "Besuche mein {type}-Profil"
+  made_with: Erstellt mit

@@ -12,7 +12,7 @@ export default ({ post, lang }: { post: Post, lang: string }, helpers: Lume.Help
         <time class="post-summary__date" dateTime={helpers.date(post.date)}>
           {helpers.date(post.date, "HUMAN_DATE", lang)}
         </time>
-        <h2>{post.title}</h2>
+        <h2 class="post-summary__title">{post.title}</h2>
         {post.description && (
           <p class="post-summary__description">{post.description}</p>
         )}

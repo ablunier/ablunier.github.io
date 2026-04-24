@@ -9,12 +9,12 @@ export const gl = {
 
 export default ({ i18n, lang }: Lume.Data & { lang: string }) => (
   <>
-    <section class="container">
+    <article>
       <div class="homepage-lead">
         <h1>
           {i18n[lang].greeting}
         </h1>
       </div>
-    </section>
+    </article>
   </>
 );

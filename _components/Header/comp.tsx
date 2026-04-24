@@ -1,6 +1,10 @@
 export default ({ comp, search, lang, alternates, i18n }: Lume.Data & { lang: string }) => {
   const indexPage = search.page('id=index lang=' + lang);
-  const notebookPage = search.page('id=notebook lang=' + lang);
+  let notebookPage = search.page('id=notebook lang=' + lang);
+
+  if (!notebookPage) {
+    notebookPage = search.page('id=notebook lang=en');
+  }
 
   return (
     <header class="site-header">
@@ -22,7 +26,11 @@ export default ({ comp, search, lang, alternates, i18n }: Lume.Data & { lang: st
               <ul class="site-header__lang-list">
                 {alternates.map((alt) => (
                   <li>
-                    <a href={alt.url} aria-current={alt.lang === lang ? "page" : undefined}>
+                    <a 
+                      href={alt.url} 
+                      aria-current={alt.lang === lang ? "page" : undefined}
+                      title={i18n[lang].language_name[alt.lang as string] || alt.lang}
+                    >
                       {alt.lang}
                     </a>
                   </li>

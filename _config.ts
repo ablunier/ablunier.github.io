@@ -20,7 +20,7 @@ site.use(favicon())
       locales: { gl, en },
     }))
     .use(multilanguage({
-      languages: ["gl", "en"],
+      languages: ["gl", "en", "de"],
     }));
 
 site.copy("_redirect.html", "/index.html");
