@@ -29,6 +29,7 @@ export default ({ comp, search, lang, alternates, i18n }: Lume.Data & { lang: st
                     <a 
                       href={alt.url} 
                       aria-current={alt.lang === lang ? "page" : undefined}
+                      class={alt.lang === lang ? "site-header__lang-link--active" : ""}
                       title={i18n[lang].language_name[alt.lang as string] || alt.lang}
                     >
                       {alt.lang}
