@@ -8,10 +8,11 @@
     "profile": {
       "name": "Adrián",
       "surnames": "Pardellas Blunier",
-      "title": "Software Developer",
+      "title": "Full-Stack Developer",
+      "description": "Full-stack developer with 10+ years building production systems — ticketing, eCommerce, news platforms, ETL pipelines, data ingestion, and more.\n\nContinuous learning is a constant for me — I can't imagine doing this job without picking up new languages, technologies and practices along the way. Laravel is where my deepest experience lies, and I'm currently shifting focus to TypeScript across the stack. Lately, coding with AI agents has made knowing how to apply good practices even more important than ever.",
       "avatar": {
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/11/20/90c64a67-6244-4899-b929-31e280919d45_eu.jpg",
-        "alt": "Eu.jpg"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/26/a9183c9c-029a-4492-be64-cc74a1d046fb_20260826_175037-1.jpg",
+        "alt": "20260826_175037-1.jpg"
       },
       "location": {
         "notes": "Autocompleted using Google Maps API (id: ChIJk8GyYRRiLw0Rn9RLF60dRHs)",
@@ -19,7 +20,704 @@
         "region": "Galicia",
         "municipality": "Vigo"
       }
-    }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/adrian-p-blunier/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/ablunier"
+      },
+      {
+        "type": "other",
+        "URL": "https://adrianp.blunier.me/",
+        "description": "My personal website"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "NUMAX, S. Coop. Galega",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/2decb1cc-8733-435b-a49d-4c6147fda883_numax.jpeg",
+            "alt": "numax.jpeg"
+          },
+          "URL": "https://github.com/numaxlab/"
+        },
+        "roles": [
+          {
+            "name": "Full-Stack Developer / Tech Lead",
+            "startDate": "2017-03-01",
+            "finishDate": "2026-06-01",
+            "challenges": [
+              {
+                "description": "- Led implementation of an OSS bookshop eCommerce platform that handles catalogs of 500K+ records and integrates third-party APIs for payments, data ingestion and metadata enrichment, using Laravel, Livewire, JavaScript, PostgreSQL and Meilisearch.\n- Engineered an ETL pipeline to connect a cinema ticketing system with PowerBI, achieving 6x faster KPI checks, cutting manual reporting time by 60%, and enabling tracking of 20+ new KPIs.\n- Automated a legally mandated ICAA compliance report by implementing its encrypted file format spec and integrating it with the ticketing system, cutting the reporting workload by 95%.\n- Implemented a networked ESC/POS thermal ticket-printing system for the cinema POS, driving printers with custom QR code and branding layouts.\n- Led the architecture and full rewrite of a legacy, unstable news platform, introducing Domain-Driven Design and CQRS across the domain model and building a companion Vue CMS — reduced production incidents to 2 in 8 years while increasing publishing volume 30%."
+              }
+            ],
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Laravel",
+                "type": "technology"
+              },
+              {
+                "name": "Sass",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "A Navalla Suiza",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/a8a8363f-eb66-4ac5-9c15-9e901b348562_ans.jpeg",
+            "alt": "ans.jpeg"
+          },
+          "URL": "https://web.archive.org/web/20170126071031/http://anavallasuiza.com/"
+        },
+        "roles": [
+          {
+            "name": "Backend Developer",
+            "startDate": "2014-03-01",
+            "finishDate": "2017-02-01",
+            "challenges": [
+              {
+                "description": "- Developed backend systems and APIs in PHP and Laravel across a range of projects — CMS-driven sites, e-commerce platforms, interactive data visualizations, and webdocs.\n- Integrated three external VoD providers with an online film catalog through a unified abstraction layer with per-title platform routing.\n- Delivered a dual-channel e-commerce platform (B2C and B2B) with distinct pricing models, checkout flows, and access control per channel.\n- Built an ETL pipeline to ingest incremental product catalog data from SAP via file exchange, keeping the e-commerce platform in sync with the client's ERP system.\n- Introduced CI/CD pipelines with Jenkins into the team's project workflows, automating deployments and bringing consistency to the release process."
+              }
+            ],
+            "competences": [
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Jenkins",
+                "type": "technology"
+              },
+              {
+                "name": "Laravel",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Grupo Menus",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/5f8f02a6-ecfe-4714-b1db-a8e2858649be_menus.jpeg",
+            "alt": "menus.jpeg"
+          },
+          "URL": "https://web.archive.org/web/20140208084810/http://www.menus.es/"
+        },
+        "roles": [
+          {
+            "name": "Backend Developer & Android Developer",
+            "startDate": "2013-02-01",
+            "finishDate": "2014-03-01",
+            "challenges": [
+              {
+                "description": "- Built a Symfony-based e-commerce platform for boutique food products, integrating Redsys TPV and PayPal payment processing.\n- Maintained and extended the company's social network Android app, delivering both bug fixes and new features."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Monbus",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/de7de10f-7127-45fc-a1d5-899aaf40a4d8_monbus.jpeg",
+            "alt": "monbus.jpeg"
+          },
+          "URL": "https://www.monbus.es/"
+        },
+        "roles": [
+          {
+            "name": "Full-Stack Developer",
+            "startDate": "2009-07-01",
+            "finishDate": "2013-02-01",
+            "challenges": [
+              {
+                "description": "- Built and maintained internal and public-facing web applications in PHP, JavaScript, and CSS within a team of 3–5 developers.\n- Developed a point-of-sale ticketing application with ESC/POS thermal printer integration."
+              }
+            ],
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "aarboard ag",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/24a044c0-5e05-45ab-a738-d106da3a4174_aarboard.jpeg",
+            "alt": "aarboard.jpeg"
+          },
+          "URL": "https://www.aarboard.ch/"
+        },
+        "roles": [
+          {
+            "name": "Internship",
+            "startDate": "2008-07-01",
+            "finishDate": "2008-08-01",
+            "challenges": [
+              {
+                "description": "Developed a website using HTML, CSS and JavaScript during a two-month summer internship at a Swiss web agency, integrating it with aarcat, the company's proprietary CMS, via JSP."
+              }
+            ],
+            "competences": [
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "JSP",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "Testa",
+          "URL": "https://github.com/numaxlab/testa"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2025-01-01",
+            "competences": [
+              {
+                "name": "Laravel",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Anavel",
+          "URL": "https://github.com/anavel"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2015-10-01",
+            "finishDate": "2017-03-01"
+          }
+        ]
+      }
+    ],
+    "publicArtifacts": [
+      {
+        "details": {
+          "name": "Became partner at NUMAX"
+        },
+        "type": "achievement",
+        "publishingDate": "2018-03-01"
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "DE",
+        "fullName": "Alemán",
+        "level": "Limited working proficiency"
+      },
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Full professional proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "GL",
+        "fullName": "Gallego",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Express",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Git",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Jest",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Laravel",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MySQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NextJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Nginx",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PHP",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PHPunit",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Sass",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Symfony",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Tailwind",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Vite",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Vue",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Bachelor's Degree in Information Technology Engineering",
+        "startDate": "2010-09-01",
+        "institution": {
+          "name": "UNED",
+          "description": "Not completed"
+        },
+        "finishDate": "2013-06-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Bachelor’s Degree in Multimedia",
+        "startDate": "2016-09-01",
+        "institution": {
+          "name": "UOC",
+          "description": "Not completed"
+        },
+        "finishDate": "2018-06-01"
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Course of Advanced TypeScript: Beyond any",
+        "startDate": "2026-02-01",
+        "institution": {
+          "name": "Codely",
+          "URL": "https://codely.com/en/users/adrian-pardellas-WfCx4r",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/8d3a300c-72bc-4b60-ade2-5ad2540d6f35_codely.jpeg",
+            "alt": "codely.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "TypeScript",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Course of Advanced TypeScript: Improve Your Developer eXperience",
+        "startDate": "2026-02-01",
+        "institution": {
+          "name": "Codely",
+          "URL": "https://codely.com/en/users/adrian-pardellas-WfCx4r",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/799ab3cf-7731-4167-b26a-6ed573cd1ea5_codely.jpeg",
+            "alt": "codely.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "TypeScript",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Course of Asynchrony in JavaScript",
+        "startDate": "2026-01-01",
+        "institution": {
+          "name": "Codely",
+          "URL": "https://codely.com/en/users/adrian-pardellas-WfCx4r",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/6fc2bbbf-f69a-4a92-81b5-4051fd2500e2_codely.jpeg",
+            "alt": "codely.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Course of CQRS: Command Query Responsibility Segregation",
+        "startDate": "2018-02-01",
+        "institution": {
+          "name": "Codely",
+          "URL": "https://codely.com/en/users/adrian-pardellas-WfCx4r",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/b9117bd8-5a51-4e72-8c00-0c28ec75efae_codely.jpeg",
+            "alt": "codely.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "Scala",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Course of DDD in TypeScript: Modeling and Architecture",
+        "startDate": "2026-05-01",
+        "institution": {
+          "name": "Codely",
+          "URL": "https://codely.com/en/users/adrian-pardellas-WfCx4r",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/5e280abb-b810-4e2d-97ad-62a94fc43d5a_codely.jpeg",
+            "alt": "codely.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "TypeScript",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Course of From JavaScript to TypeScript",
+        "startDate": "2024-12-01",
+        "institution": {
+          "name": "Codely",
+          "URL": "https://codely.com/en/users/adrian-pardellas-WfCx4r",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/7a7cc5fe-9720-45c9-bc84-27607a8f6a91_codely.jpeg",
+            "alt": "codely.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "TypeScript",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Course of Hexagonal Architecture",
+        "startDate": "2018-01-01",
+        "institution": {
+          "name": "Codely",
+          "URL": "https://codely.com/en/users/adrian-pardellas-WfCx4r",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/2d305b93-ce36-4ec9-a8d7-95cd9a55a579_codely.jpeg",
+            "alt": "codely.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "Scala",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Course of Modern JavaScript",
+        "startDate": "2023-12-01",
+        "institution": {
+          "name": "Codely",
+          "URL": "https://codely.com/en/users/adrian-pardellas-WfCx4r",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/951cdacf-5e29-4b42-86fb-b3788d437978_codely.jpeg",
+            "alt": "codely.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Higher Vocational Training in Computer Application Development",
+        "startDate": "2007-09-01",
+        "institution": {
+          "name": "Ministerio de Educación, Cultura y Deporte"
+        },
+        "finishDate": "2009-06-01"
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Introduction to subagents",
+        "startDate": "2026-04-01",
+        "institution": {
+          "name": "Anthropic Education",
+          "URL": "https://verify.skilljar.com/c/n8mj2cf7736x",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/09a778f8-c10d-42c1-85d6-eb19708cc7c8_anthropic.png",
+            "alt": "anthropic.png"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "Claude Code",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "SOLID Principles in PHP",
+        "startDate": "2015-12-01",
+        "institution": {
+          "name": "Laracasts",
+          "URL": "https://laracasts.com/series/solid-principles-in-php",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/08/27/015b671e-6ed1-468a-8cb2-11f89bf8a623_laracasts.jpeg",
+            "alt": "laracasts.jpeg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "PHP",
+            "type": "technology"
+          }
+        ]
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Attention to detail",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Continuous learning",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Team player",
+          "type": "practice"
+        }
+      }
+    ]
   },
   "careerPreferences": {
     "contact": {
@@ -34,8 +732,108 @@
         }
       ],
       "contactMails": [
-        "adrian.blunier@gmail.com"
+        "adrianp@blunier.me"
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "CSS",
+          "type": "technology"
+        },
+        {
+          "name": "Docker",
+          "type": "technology"
+        },
+        {
+          "name": "Express",
+          "type": "technology"
+        },
+        {
+          "name": "Laravel",
+          "type": "technology"
+        },
+        {
+          "name": "NextJS",
+          "type": "technology"
+        },
+        {
+          "name": "NodeJS",
+          "type": "technology"
+        },
+        {
+          "name": "React",
+          "type": "technology"
+        },
+        {
+          "name": "Symfony",
+          "type": "technology"
+        },
+        {
+          "name": "TypeScript",
+          "type": "technology"
+        },
+        {
+          "name": "Vue",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "Drupal",
+          "type": "technology"
+        },
+        {
+          "name": "WordPress",
+          "type": "technology"
+        }
+      ],
+      "preferredRoles": [
+        "Backend Developer",
+        "DevOps & Infrastructure & SRE",
+        "Frontend Developer",
+        "Full-stack Developer"
+      ]
+    },
+    "status": "searchingActively",
+    "requirements": {
+      "contractTypes": [
+        "permanent"
       ]
     }
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "CSS",
+        "type": "technology"
+      },
+      {
+        "name": "Laravel",
+        "type": "technology"
+      },
+      {
+        "name": "NextJS",
+        "type": "technology"
+      },
+      {
+        "name": "Symfony",
+        "type": "technology"
+      },
+      {
+        "name": "TypeScript",
+        "type": "technology"
+      }
+    ],
+    "desiredJobDescription": "Looking for a new role where I can go deep on challenging projects within a motivated, engaged team interested in software architecture and continuous improvement. Ideally in a product.",
+    "goodPractices": "Architecture holding up under real complexity is what I care about most: Domain-Driven Design, Hexagonal Architecture, and CQRS earn their place when a system actually needs them. Clean code and TDD are how a codebase stays workable over time, and I enjoy taking ownership end-to-end — architecture, code, testing, security, observability, and the outcome it actually produces for users.",
+    "projects": [
+      {
+        "name": "Anavel"
+      },
+      {
+        "name": "Testa"
+      }
+    ]
   }
 }

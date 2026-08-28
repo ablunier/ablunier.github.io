@@ -11,14 +11,14 @@ export default ({ comp, search, lang, alternates, i18n }: Lume.Data & { lang: st
       <div class="site-header__container">
         <div class="site-header__overlay">
           <nav class="site-header__nav" aria-label={i18n[lang].primary_navigation}>
-            <ul class="site-header__main-nav-list">
+            {/* <ul class="site-header__main-nav-list">
               <li>
                 <a href={indexPage?.url}>{indexPage?.title}</a>
               </li>
               <li>
                 <a href={notebookPage?.url}>{notebookPage?.title}</a>
               </li>
-            </ul>
+            </ul> */}
           </nav>
 
           {alternates && (

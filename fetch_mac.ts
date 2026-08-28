@@ -11,7 +11,7 @@ const octokit = new Octokit({ auth: token });
 try {
   const response = await octokit.rest.repos.getContent({
     owner: "ablunier",
-    repo: "manfred",
+    repo: "resume",
     path: "CV/MAC.json",
   });
 
