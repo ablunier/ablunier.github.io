@@ -314,7 +314,7 @@
   .homepage-lead {
     margin-top: var(--spacing-4);
     height: 72vh;
-    max-width: 28rem;
+    max-width: 32rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -11,9 +11,12 @@ export default ({ i18n, lang }: Lume.Data & { lang: string }) => (
   <>
     <article>
       <div class="homepage-lead">
-        <h1>
-          {i18n[lang].greeting}
-        </h1>
+        <h1
+          dangerouslySetInnerHTML={{ __html: i18n[lang].greeting }}
+        />
+        <h2>
+          {i18n[lang].role}
+        </h2>
       </div>
     </article>
   </>
