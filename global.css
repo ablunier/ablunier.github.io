@@ -131,6 +131,10 @@
     line-height: 1.2;
   }
 
+  hr {
+    margin: var(--spacing-1) 0;
+  }
+
   a {
     color: var(--color-accent);
     transition: color 0.2s;
