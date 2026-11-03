@@ -10,7 +10,7 @@ export default ({ comp, search, lang, alternates, i18n }: Lume.Data & { lang: st
     <header class="site-header">
       <div class="site-header__container">
         <div class="site-header__overlay">
-          <nav class="site-header__nav" aria-label={i18n[lang].primary_navigation}>
+          {/* <nav class="site-header__nav" aria-label={i18n[lang].primary_navigation}>
             <ul class="site-header__main-nav-list">
               <li>
                 <a href={indexPage?.url}>{indexPage?.title}</a>
@@ -19,7 +19,7 @@ export default ({ comp, search, lang, alternates, i18n }: Lume.Data & { lang: st
                 <a href={notebookPage?.url}>{notebookPage?.title}</a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
 
           {alternates && (
             <nav class="site-header__nav" aria-label={i18n[lang].lang_navigation}>
